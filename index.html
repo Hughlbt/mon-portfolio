@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Portfolio développeur web de [Ton Prénom]" />
+  <title>Portfolio - [Ton Prénom]</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <header id="accueil">
+    <div class="hero">
+      <h1>Bonjour, moi c’est Hugues</h1>
+      <p>Développeur web</p>
+    </div>
+  </header>
+
+  <nav class="main-nav">
+    <ul>
+      <li><a href="#accueil">Accueil</a></li>
+      <li><a href="#apropos">À propos</a></li>
+      <li><a href="#realisations">Réalisations</a></li>
+      <li><a href="#competences">Compétences</a></li>
+      <li><a href="#cv">Parcours/CV</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <section id="apropos">
+    <h2>À propos</h2>
+    <p>Passionné et curieux des évolutions du domaine du web, je suis actuellement développeur web. Je me forme également au JAVA et Python afin d’élargir ma palette de compétences.</p>
+  </section>
+
+  <section id="realisations">
+    <h2>Réalisations</h2>
+    
+  </section>
+
+  <section id="competences">
+    <h2>Compétences</h2>
+  </section>
+
+  <section id="cv">
+    <h2>Parcours / CV</h2>
+  </section>
+
+  <section id="contact">
+    <h2>Contact</h2>
+    <form method="POST" action="/contact">
+      <input type="text" name="nom" placeholder="Votre nom" required />
+      <input type="email" name="email" placeholder="Votre email" required />
+      <textarea name="message" placeholder="Votre message" required></textarea>
+      <button type="submit">Envoyer</button>
+    </form>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
