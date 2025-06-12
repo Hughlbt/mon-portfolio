@@ -10,12 +10,13 @@
 </head>
 <body>
 
-  <header id="accueil">
-    <div class="hero">
-      <h1>Bonjour, moi c’est Hugues</h1>
-      <p>Développeur web</p>
-    </div>
-  </header>
+ <header id="accueil" class="hero">
+  <div class="overlay">
+    <h1>Bonjour, moi c’est Hugues</h1>
+    <p>Développeur web</p>
+  </div>
+</header>
+
 
 <main>
   <nav class="main-nav" aria-label="Navigation principale">
@@ -29,14 +30,14 @@
     </ul>
   </nav>
 
-  <section id="apropos">
+  <section id="apropos" class="section bg-light">
     <h2>À propos</h2>
     <p>Passionné et curieux des évolutions du domaine du web, je suis actuellement développeur web. Je me forme également au JAVA et Python afin d’élargir ma palette de compétences.
         A côté du dévelopemment, mon temps libre est tourné autour du sport, de la musique et du voyage, ces activités me permettent d'ouvrir mes horizons et m'inspire pour aborder les défis du développement.
     </p>
   </section>
 
-  <section id="realisations">
+  <section id="realisations" class="section bg-alt">
   <h2>Réalisations</h2>
 
   <div class="projet">
@@ -57,7 +58,7 @@
 
 </section>
 
-  <section id="competences">
+  <section id="competences" class="section bg-light">
     <h2>Compétences</h2>
     <ul>
       <li>HTML</li>
@@ -69,11 +70,11 @@
     </ul>
   </section>
 
-  <section id="cv">
+  <section id="cv" class="section bg-alt">
     <h2>Parcours / CV</h2>
   </section>
 
-  <section id="contact">
+  <section id="contact" class="section bg-light">
     <h2>Contact</h2>
     <form method="POST" action="/contact">
       <input type="text" name="nom" placeholder="Votre nom" required />
@@ -93,5 +94,7 @@
 </main>
 
   <script src="script.js"></script>
+  <script src="bandeau.js"></script>
+
 </body>
 </html>
