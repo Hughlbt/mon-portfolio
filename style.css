@@ -208,7 +208,7 @@ textarea {
 }
 
 .hero {
-    background: url('pictures/banniere-portfolio.png') center/cover no-repeat;
+    background: url('pictures/banniere-portfolio.webp') center/cover no-repeat;
     height: 100vh;
     display: flex;
     align-items: center;
@@ -493,6 +493,12 @@ textarea {
     resize: vertical;
     min-height: 120px;
 }
+
+label {
+    position: absolute;
+    left: -9999px;
+}
+
 
 #contact input[type="text"]:focus,
 #contact input[type="email"]:focus,

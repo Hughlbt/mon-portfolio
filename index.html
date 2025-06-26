@@ -65,7 +65,7 @@
 
   <div class="projet">
         <h2> Mon vieux grimoire</h2>
-    <img src="pictures/livre.png" alt="Aperçu du projet Mon vieux grimoire">
+    <img src="pictures/livre.webp" alt="Aperçu du projet Mon vieux grimoire">
     <h3>Site de notation de livre </h3>
     <p><strong>Front End :</strong> React</p>
     <p><strong>Back End :</strong> Nodes.js; MongoBD; express</p>
@@ -75,7 +75,7 @@
 
   <div class="projet">
     <h2>Kasa</h2>
-    <img src="pictures/kaza.png" alt="Aperçu du projet Kasa">
+    <img src="pictures/kaza.webp" alt="Aperçu du projet Kasa">
     <h3>Site de réservation de logement</h3>
     <p><strong>Front End :</strong> React</p>
     <a href="https://github.com/Hughlbt/Kasa" target="_blank" rel="noopener noreferrer">Voir sur GitHub</a>
@@ -83,7 +83,7 @@
 
     <div class="projet">
           <h2>Sophie Bluel</h2>
-    <img src="pictures/bluel.png" alt="Aperçu du projet Bluel">
+    <img src="pictures/bluel.webp" alt="Aperçu du projet Bluel">
     <h3>Site d'une photographe</h3>
     <p><strong>Front End : </strong> JavaScript; HTML; CSS</p>
     <p>Ce projet traitait de l'optimisation du site et de son référencement</p>
@@ -93,7 +93,7 @@
 
     <div class="projet">
           <h2>Booki</h2>
-    <img src="pictures/booki.png" alt="Aperçu du projet Booki">
+    <img src="pictures/booki.webp" alt="Aperçu du projet Booki">
     <h3>Site à destination des voyageurs</h3>
     <p><strong>Front End : </strong>HTML; CSS</p>
     <a href="https://github.com/Hughlbt/booki" target="_blank" rel="noopener noreferrer">Voir sur GitHub</a>
@@ -166,11 +166,18 @@
   <div class="separator"></div>
 
   <form method="POST" action="/contact">
-    <input type="text" name="nom" placeholder="Votre nom" required />
-    <input type="email" name="email" placeholder="Votre email" required />
-    <textarea name="message" placeholder="Votre message" required rows="5"></textarea>
-    <button type="submit">Envoyer</button>
-  </form>
+  <label for="nom">Nom</label>
+  <input id="nom" type="text" name="nom" placeholder="Votre nom" required />
+
+  <label for="email">Email</label>
+  <input id="email" type="email" name="email" placeholder="Votre email" required />
+
+  <label for="message">Message</label>
+  <textarea id="message" name="message" placeholder="Votre message" required rows="5"></textarea>
+
+  <button type="submit">Envoyer</button>
+</form>
+
 
   <div class="social-links">
   <h2>Retrouvez-moi aussi sur :</h2>
