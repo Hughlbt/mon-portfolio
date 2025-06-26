@@ -15,18 +15,26 @@
     <h1>Hugues Poncet</h1>
     <p>Développeur web</p>
   </div>
+
+   <div class="scroll-down-container">
+  <a href="#navigation" class="scroll-down" aria-label="Descendre vers la navigation">
+    <svg width="30" height="50" viewBox="0 0 30 50" fill="none" xmlns="http://www.w3.org/2000/svg" >
+      <rect x="1" y="1" width="28" height="48" rx="14" ry="14" stroke="white" stroke-width="2"/>
+      <circle class="scroll-ball" cx="15" cy="12" r="5" fill="white"/>
+    </svg>
+  </a>
+</div>
+
 </header>
 
-
 <main>
-  <nav class="main-nav" aria-label="Navigation principale">
+  <nav id="navigation" class="main-nav" aria-label="Navigation principale">
     <ul>
       <li><a href="#accueil">Accueil</a></li>
       <li><a href="#apropos">À propos</a></li>
       <li><a href="#realisations">Réalisations</a></li>
       <li><a href="#competences">Compétences</a></li>
       <li><a href="#contact">Contact</a></li>
-      <li><a href="hugues_poncet_cv.pdf" target="_blank" rel="noopener noreferrer">CV</a></li>
     </ul>
   </nav>
 
@@ -140,7 +148,6 @@
   </ul>
 </section>
 
-
  <section id="contact" class="section bg-alt">
   <h1>Contact</h1>
   <div class="separator"></div>
@@ -153,12 +160,25 @@
   </form>
 
   <div class="social-links">
-    <h2>Retrouvez-moi aussi sur :</h2>
-    <ul>
-      <li><a href="https://github.com/hughlbt" target="_blank" rel="noopener noreferrer">GitHub</a></li>
-      <li><a href="https://www.linkedin.com/in/hugues-poncet-6a3a8534b/" target="_blank" rel="noopener noreferrer">LinkedIn</a></li>
-    </ul>
-  </div>
+  <h2>Retrouvez-moi aussi sur :</h2>
+  <ul>
+    <li>
+      <a href="https://github.com/hughlbt" target="_blank" rel="noopener noreferrer">
+        🐙 GitHub
+      </a>
+    </li>
+    <li>
+      <a href="https://www.linkedin.com/in/hugues-poncet-6a3a8534b/" target="_blank" rel="noopener noreferrer">
+        💼 LinkedIn
+      </a>
+    </li>
+    <li>
+      <a href="hugues.poncet_cv.pdf" target="_blank" rel="noopener noreferrer">
+        📄 Mon CV
+      </a>
+    </li>
+  </ul>
+</div>
 </section>
 </main>
 
@@ -168,9 +188,9 @@
   </div>
 </footer>
 
-
   <script src="script.js"></script>
   <script src="bandeau.js"></script>
+  <script src="scrollDown.js"></script>
 
 </body>
 </html>
