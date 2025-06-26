@@ -342,3 +342,90 @@ textarea {
     user-select: none;
     padding: 0 5px;
 }
+
+
+#contact h2 {
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+
+#contact form {
+    display: flex;
+    flex-direction: column;
+    gap: 1.25rem;
+    margin: 0 auto;
+    padding: 2rem;
+    width: 600px;
+}
+
+#contact input[type="text"],
+#contact input[type="email"],
+#contact textarea {
+    padding: 0.75rem 1rem;
+    border: 2px solid #ccc;
+    border-radius: 8px;
+    font-size: 1rem;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+    font-family: inherit;
+}
+
+#contact textarea {
+    resize: vertical;
+    min-height: 120px;
+}
+
+#contact input[type="text"]:focus,
+#contact input[type="email"]:focus,
+#contact textarea:focus {
+    outline: none;
+    border-color: #000;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.15);
+}
+
+#contact button[type="submit"] {
+    padding: 0.75rem 1.5rem;
+    background: #000;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    font-size: 1.1rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-family: inherit;
+}
+
+#contact button[type="submit"]:hover {
+    background-color: #222;
+}
+
+#contact .social-links {
+    margin-top: 3rem;
+    text-align: center;
+}
+
+#contact .social-links h3 {
+    margin-bottom: 0.75rem;
+    font-weight: 600;
+}
+
+#contact .social-links ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+    font-weight: 600;
+}
+
+#contact .social-links a {
+    color: #000;
+    text-decoration: none;
+    border-bottom: 2px solid transparent;
+    transition: border-color 0.3s ease;
+}
+
+#contact .social-links a:hover {
+    border-color: #000;
+}
