@@ -165,16 +165,13 @@
   <h1>Contact</h1>
   <div class="separator"></div>
 
-  <form method="POST" action="/contact">
-  <label for="nom">Nom</label>
+  <form method="POST" action="https://formsubmit.co/hugues.poncet@yahoo.fr">
+<input type="hidden" name="_next" value="http://127.0.0.1:5500/merci.html" />  <label for="nom">Nom</label>
   <input id="nom" type="text" name="nom" placeholder="Votre nom" required />
-
   <label for="email">Email</label>
   <input id="email" type="email" name="email" placeholder="Votre email" required />
-
   <label for="message">Message</label>
   <textarea id="message" name="message" placeholder="Votre message" required rows="5"></textarea>
-
   <button type="submit">Envoyer</button>
 </form>
 
